@@ -1,0 +1,18 @@
+At the core of the NumPy package is the ndarray object
+    - n dimensional arrays of homogeneous data types
+
+
+Difference between NumPy arrays and standard Python lists:
+    - NumPy arrays have a fixed size at creation
+    - Changing size of ndarray will create a new array and delete the original
+    - Elements in NumPy array must be the same data type
+        - EXCEPTION - can have arrays of objects w/ diff size in memory
+    - Facilitate more efficient operations on large amounts of data
+
+Why is NumPy better/faster?
+    - Vectorization - no explicit looping
+    - Concise and easier to read
+    - More closely resembles standard mathemtical notation
+
+Broadcasting
+    - Implicit element-by-element behavior of operations
