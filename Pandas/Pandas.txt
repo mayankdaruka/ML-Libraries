@@ -1,0 +1,15 @@
+Open-source Python package
+    - Built on top of NumPy
+    - Makes it simple to do many time consuming tasks related to working with data
+
+Tasks made easier:
+    - Data cleansing
+    - Data fill
+    - Data normalization
+    - Merges and joins
+    - Data visualization
+    - Statistical analysis
+    - Data inspection
+    - Loading and saving data
+
+Series - one dimensional array
