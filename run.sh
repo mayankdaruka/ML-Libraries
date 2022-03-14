@@ -1,1 +1,1 @@
-python3 array_datatypes.py
+python3 array_structured.py
