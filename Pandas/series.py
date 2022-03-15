@@ -35,3 +35,8 @@ print(b2.get("w"))
 print(b2 * 2)
 # If a label is not found in one Series or the other, the result will be None
 print(b2[1:] + b2[:-1])
+b3 = pd.Series(np.random.randn(3), name="something1")
+print(b3)
+print(b3.name)
+b4 = b3.rename("something2")
+print(b4)
