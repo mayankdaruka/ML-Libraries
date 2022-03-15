@@ -40,4 +40,22 @@ print(iris.iloc[4])
 df2 = pd.DataFrame(np.random.randn(10, 4), columns=["A", "B", "C", "D"])
 df3 = pd.DataFrame(np.random.randn(7, 3), columns=["A", "B", "C"])
 print(df2 + df3)
+print(df2 - df2.iloc[0])
 
+df4 = pd.DataFrame({"a": [1, 0, 1], "b": [0, 1, 1]}, dtype=bool)
+df5 = pd.DataFrame({"a": [0, 1, 1], "b": [1, 1, 0]}, dtype=bool)
+print(df4)
+print(df4 | df5)
+print(df4 ^ df5)
+print(df4.T) # Transpose
+
+# Converting DataFrames to ndarrays
+print(np.asarray(df4))
+print(np.asarray(df4.T))
+
+print(iris)
+print(iris.info())
+print(iris.iloc[123:130, :4])
+
+df6 = pd.DataFrame(np.random.randn(3, 12))
+print(df6)
