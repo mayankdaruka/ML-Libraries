@@ -29,3 +29,15 @@ print(iris.head())
 
 # Will work on Jupyter but not on VS Code as far as I know
 # iris.query("sepallength > 5").plot(kind="scatter", x="sepalratio", y="petalratio")
+
+# Selecting column
+print(iris["sepallength"])
+# Selecting row by row label
+print(iris.loc[0])
+# Selecting row by integer location
+print(iris.iloc[4])
+
+df2 = pd.DataFrame(np.random.randn(10, 4), columns=["A", "B", "C", "D"])
+df3 = pd.DataFrame(np.random.randn(7, 3), columns=["A", "B", "C"])
+print(df2 + df3)
+
